@@ -1,16 +1,44 @@
-# React + Vite
+# React Blog Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Aim
+To create a responsive blog dashboard using React and React Bootstrap, displaying blog posts as cards with a clean and modern UI.
 
-Currently, two official plugins are available:
+## Features
+- Responsive Navbar with links to "Home" and "Posts".
+- Blog post cards showing title, description, and a "Read More" button.
+- Uses functional components with props to pass data.
+- Fully responsive grid layout using React Bootstrap components (Container, Row, Col, Card, Button).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
 
-## React Compiler
+<img width="813" height="402" alt="image" src="https://github.com/user-attachments/assets/048e405b-5749-4e3a-8123-0fa51c612451" />
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Installation Instructions
+1. Clone the repository:
+```
+git clone <your-repo-link>
+cd blog-dashboard
+```
+2. Install dependencies:
+```
+npm install
+```
+3. Run the application:
+```
+npm start
+```
+4. Open your browser at `http://localhost:3000` to see the dashboard.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- React
+- React Bootstrap
+- JavaScript (ES6+)
+- CSS
+
+## Result
+A fully functional React Blog Dashboard has been created successfully, displaying multiple blog posts in a responsive card layout.
+
+## Deployment
+- Push code to GitHub.
+- Deploy online using Vercel.
